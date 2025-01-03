@@ -1,0 +1,21 @@
+[project]
+name = "ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.6",
+    "jupyterlab",
+    "pydantic>=2.10.4",
+    "torch>=2.5.1",
+    "torchaudio>=2.5.1",
+    "torchvision>=0.20.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=8.31.0",
+    "notebook>=7.3.2",
+    "pip>=24.3.1",
+]
